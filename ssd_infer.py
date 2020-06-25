@@ -49,8 +49,9 @@ def main():
     model.cuda()
 
     # state = torch.load('./saved/checkpoints/densenet121_rot30_2019Nov11_14.23')
-    #state = torch.load('./saved/checkpoints/alexnet__n_2020Jun20_18.28')
-    state = torch.load('./saved/checkpoints/Z_resmasking_dropout1_rot30_2019Nov30_13.32')
+    state = torch.load('./saved/checkpoints/resmasking_dropout1__demo_part')
+    #state = torch.load('./saved/checkpoints/resmasking_dropout1__demo_whole')
+    #state = torch.load('./saved/checkpoints/Z_resmasking_dropout1_rot30_2019Nov30_13.32')
     model.load_state_dict(state['net'])
     model.eval()
 
@@ -96,7 +97,7 @@ def main():
                     end_y = int(center_y + square_length)
                     
 
-                    cv2.rectangle(frame , (start_x, start_y), (end_x, end_y), (179, 255, 179), 2)
+                    cv2.rectangle(frame , (start_x, start_y), (end_x, end_y), (0, 255, 255), 4)
                     # cv2.rectangle(frame , (x, y), (x + w, y + h), (179, 255, 179), 2)
 
                     # face = gray[y:y + h, x:x + w]
@@ -124,7 +125,7 @@ def main():
                         frame,
                         (end_x, start_y + 1 - label_size[1]),
                         (end_x + label_size[0], start_y + 1 + base_line),
-                        (223, 128, 255),
+                        (0, 255, 255),
                         cv2.FILLED
                     )
                     cv2.putText(
@@ -132,7 +133,7 @@ def main():
                         '{} {}'.format(emo_label, int(emo_proba * 100)),
                         (end_x, start_y + 1),
                         cv2.FONT_HERSHEY_SIMPLEX,
-                        0.8, (0, 0, 0), 2
+                        0.8, (150, 10, 10), 2
                     )
                  
                 
