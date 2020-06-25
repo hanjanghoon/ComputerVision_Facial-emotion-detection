@@ -17,3 +17,5 @@ ssd_infer는 데모 실행용 파일입니다.
 데이터셋은 용량이 커서 올리지 않았습니다.
 
 다른 모든 코드는 기존의 사전학습 모델의 github https://github.com/phamquiluan/ResidualMaskingNetwork 에서 왔습니다.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
