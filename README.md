@@ -18,6 +18,13 @@ ssd_infer는 데모 실행용 파일입니다.
 
 다른 모든 코드는 기존의 사전학습 모델의 github https://github.com/phamquiluan/ResidualMaskingNetwork 에서 왔습니다.
 
-[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
+발표 ppt파일은 NN_project_120190211_한장훈.pptx 입니다.
+
+동영상 파일은 너무커서 올라가지 않아 유투브에 올렸습니다.
+
+1. 발표 동영상
+
+[![Video Label](http://img.youtube.com/vi/lVge2HcoC60/0.jpg)](https://youtu.be/lVge2HcoC60?t=0s)
 
 
+2. 데모 동영상 (2개)
