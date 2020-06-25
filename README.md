@@ -26,5 +26,8 @@ ssd_infer는 데모 실행용 파일입니다.
 
 [![Video Label](http://img.youtube.com/vi/lVge2HcoC60/0.jpg)](https://youtu.be/lVge2HcoC60?t=0s)
 
+화면이 링크가 안될 경우 아래의 링크를 따라가 주세요.
+https://youtu.be/lVge2HcoC60
+
 
 2. 데모 동영상 (2개)
