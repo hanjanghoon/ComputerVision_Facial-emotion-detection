@@ -1,6 +1,8 @@
 # NN_project_120190211
 
+신경회로망 특론 기말 프로젝트 입니다.
 
+pre-trained model을 사용한 한국인 facial Expression detection입니다.
 
 학습 파일은 main_fer2013.py를 사용합니다.
 
